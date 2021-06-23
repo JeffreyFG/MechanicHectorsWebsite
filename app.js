@@ -1,9 +1,8 @@
-var http = require('http');
-var server = http.createServer(function(req, res) {
-    res.writeHead(200, {'Content-Type': 'text/plain'});
-    var message = 'It works!\n',
-        version = 'NodeJS ' + process.versions.node + '\n',
-        response = [message, version].join('\n');
-    res.end(response);
+const exprees = require('express');
+
+const app = exprees();
+app.use('/',function(request,response,next)
+{
+    response.sendFile('./public/Html/index.html', { root: __dirname });
 });
-server.listen();
+app.listen(3000);
