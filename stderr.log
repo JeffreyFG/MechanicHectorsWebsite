@@ -1,0 +1,529 @@
+TypeError: path must be absolute or specify root to res.sendFile
+    at ServerResponse.sendFile (/home/hectuywu/nodevenv/HectorSite/10/lib/node_modules/express/lib/response.js:425:11)
+    at /home/hectuywu/HectorSite/app.js:6:14
+    at Layer.handle [as handle_request] (/home/hectuywu/nodevenv/HectorSite/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/hectuywu/nodevenv/HectorSite/10/lib/node_modules/express/lib/router/index.js:317:13)
+    at /home/hectuywu/nodevenv/HectorSite/10/lib/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/hectuywu/nodevenv/HectorSite/10/lib/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/hectuywu/nodevenv/HectorSite/10/lib/node_modules/express/lib/router/index.js:275:10)
+    at expressInit (/home/hectuywu/nodevenv/HectorSite/10/lib/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/home/hectuywu/nodevenv/HectorSite/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/hectuywu/nodevenv/HectorSite/10/lib/node_modules/express/lib/router/index.js:317:13)
+TypeError: path must be absolute or specify root to res.sendFile
+    at ServerResponse.sendFile (/home/hectuywu/nodevenv/HectorSite/10/lib/node_modules/express/lib/response.js:425:11)
+    at /home/hectuywu/HectorSite/app.js:6:14
+    at Layer.handle [as handle_request] (/home/hectuywu/nodevenv/HectorSite/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/hectuywu/nodevenv/HectorSite/10/lib/node_modules/express/lib/router/index.js:317:13)
+    at /home/hectuywu/nodevenv/HectorSite/10/lib/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/hectuywu/nodevenv/HectorSite/10/lib/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/hectuywu/nodevenv/HectorSite/10/lib/node_modules/express/lib/router/index.js:275:10)
+    at expressInit (/home/hectuywu/nodevenv/HectorSite/10/lib/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/home/hectuywu/nodevenv/HectorSite/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/hectuywu/nodevenv/HectorSite/10/lib/node_modules/express/lib/router/index.js:317:13)
+TypeError: path must be absolute or specify root to res.sendFile
+    at ServerResponse.sendFile (/home/hectuywu/nodevenv/HectorSite/10/lib/node_modules/express/lib/response.js:425:11)
+    at /home/hectuywu/HectorSite/app.js:6:14
+    at Layer.handle [as handle_request] (/home/hectuywu/nodevenv/HectorSite/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/hectuywu/nodevenv/HectorSite/10/lib/node_modules/express/lib/router/index.js:317:13)
+    at /home/hectuywu/nodevenv/HectorSite/10/lib/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/hectuywu/nodevenv/HectorSite/10/lib/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/hectuywu/nodevenv/HectorSite/10/lib/node_modules/express/lib/router/index.js:275:10)
+    at expressInit (/home/hectuywu/nodevenv/HectorSite/10/lib/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/home/hectuywu/nodevenv/HectorSite/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/hectuywu/nodevenv/HectorSite/10/lib/node_modules/express/lib/router/index.js:317:13)
+Error: ENOENT: no such file or directory, stat '/home/HectorSite/public/Html/index.html'
+/home/hectuywu/HectorSite/app.js:8
+app.use(express.static(__dirname + '/public'));
+        ^
+
+ReferenceError: express is not defined
+    at Object.<anonymous> (/home/hectuywu/HectorSite/app.js:8:9)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+/home/hectuywu/HectorSite/app.js:8
+app.use(express.static(__dirname + '/public'));
+        ^
+
+ReferenceError: express is not defined
+    at Object.<anonymous> (/home/hectuywu/HectorSite/app.js:8:9)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+/home/hectuywu/HectorSite/app.js:8
+app.use(express.static(__dirname + '/public'));
+        ^
+
+ReferenceError: express is not defined
+    at Object.<anonymous> (/home/hectuywu/HectorSite/app.js:8:9)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+/home/hectuywu/HectorSite/app.js:8
+app.use(express.static(__dirname + '/public'));
+        ^
+
+ReferenceError: express is not defined
+    at Object.<anonymous> (/home/hectuywu/HectorSite/app.js:8:9)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+/home/hectuywu/HectorSite/app.js:8
+app.use(express.static(__dirname + '/public'));
+        ^
+
+ReferenceError: express is not defined
+    at Object.<anonymous> (/home/hectuywu/HectorSite/app.js:8:9)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+/home/hectuywu/HectorSite/app.js:8
+app.use(express.static(__dirname + '/public'));
+        ^
+
+ReferenceError: express is not defined
+    at Object.<anonymous> (/home/hectuywu/HectorSite/app.js:8:9)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+/home/hectuywu/HectorSite/app.js:8
+app.use(express.static(__dirname + '/public'));
+        ^
+
+ReferenceError: express is not defined
+    at Object.<anonymous> (/home/hectuywu/HectorSite/app.js:8:9)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+/home/hectuywu/HectorSite/app.js:8
+app.use(express.static(path.join(__dirname, 'public')));
+        ^
+
+ReferenceError: express is not defined
+    at Object.<anonymous> (/home/hectuywu/HectorSite/app.js:8:9)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+/home/hectuywu/HectorSite/app.js:8
+app.use(express.static(path.join(__dirname, 'public')));
+        ^
+
+ReferenceError: express is not defined
+    at Object.<anonymous> (/home/hectuywu/HectorSite/app.js:8:9)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+/home/hectuywu/HectorSite/app.js:8
+app.use(express.static(path.join(__dirname, 'public')));
+        ^
+
+ReferenceError: express is not defined
+    at Object.<anonymous> (/home/hectuywu/HectorSite/app.js:8:9)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+/home/hectuywu/HectorSite/app.js:8
+app.use(express.static(path.join(__dirname, 'public')));
+        ^
+
+ReferenceError: express is not defined
+    at Object.<anonymous> (/home/hectuywu/HectorSite/app.js:8:9)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+/home/hectuywu/HectorSite/app.js:8
+app.use(express.static(path.join(__dirname, 'public')));
+        ^
+
+ReferenceError: express is not defined
+    at Object.<anonymous> (/home/hectuywu/HectorSite/app.js:8:9)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+/home/hectuywu/HectorSite/app.js:8
+app.use(express.static(path.join(__dirname, 'public')));
+        ^
+
+ReferenceError: express is not defined
+    at Object.<anonymous> (/home/hectuywu/HectorSite/app.js:8:9)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+/home/hectuywu/HectorSite/app.js:8
+app.use(express.static(path.join(__dirname, 'public')));
+        ^
+
+ReferenceError: express is not defined
+    at Object.<anonymous> (/home/hectuywu/HectorSite/app.js:8:9)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+/home/hectuywu/HectorSite/app.js:8
+app.use(express.static(path.join(__dirname, 'public')));
+        ^
+
+ReferenceError: express is not defined
+    at Object.<anonymous> (/home/hectuywu/HectorSite/app.js:8:9)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+/home/hectuywu/HectorSite/app.js:8
+app.use(express.static(path.join(__dirname, 'public')));
+        ^
+
+ReferenceError: express is not defined
+    at Object.<anonymous> (/home/hectuywu/HectorSite/app.js:8:9)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+/home/hectuywu/HectorSite/app.js:8
+app.use(express.static(path.join(__dirname, 'public')));
+        ^
+
+ReferenceError: express is not defined
+    at Object.<anonymous> (/home/hectuywu/HectorSite/app.js:8:9)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+/home/hectuywu/HectorSite/app.js:4
+app.use(express.static(path.join(__dirname, 'public')));
+        ^
+
+ReferenceError: express is not defined
+    at Object.<anonymous> (/home/hectuywu/HectorSite/app.js:4:9)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+/home/hectuywu/HectorSite/app.js:4
+app.use(express.static(path.join(__dirname, 'public')));
+                       ^
+
+ReferenceError: path is not defined
+    at Object.<anonymous> (/home/hectuywu/HectorSite/app.js:4:24)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+/home/hectuywu/HectorSite/app.js:4
+app.use(express.static(path.join(__dirname, 'public')));
+                       ^
+
+ReferenceError: path is not defined
+    at Object.<anonymous> (/home/hectuywu/HectorSite/app.js:4:24)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+/home/hectuywu/HectorSite/app.js:4
+app.use(express.static(path.join(__dirname, 'public')));
+                       ^
+
+ReferenceError: path is not defined
+    at Object.<anonymous> (/home/hectuywu/HectorSite/app.js:4:24)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+/home/hectuywu/HectorSite/app.js:4
+app.use(express.static(path.join(__dirname, 'public')));
+                       ^
+
+ReferenceError: path is not defined
+    at Object.<anonymous> (/home/hectuywu/HectorSite/app.js:4:24)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+/home/hectuywu/HectorSite/app.js:4
+app.use(express.static(path.join(__dirname, 'public')));
+                       ^
+
+ReferenceError: path is not defined
+    at Object.<anonymous> (/home/hectuywu/HectorSite/app.js:4:24)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+/home/hectuywu/HectorSite/app.js:4
+app.use(express.static(path.join(__dirname, 'public')));
+                       ^
+
+ReferenceError: path is not defined
+    at Object.<anonymous> (/home/hectuywu/HectorSite/app.js:4:24)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+/home/hectuywu/HectorSite/app.js:4
+app.use(express.static(path.join(__dirname, 'public')));
+                       ^
+
+ReferenceError: path is not defined
+    at Object.<anonymous> (/home/hectuywu/HectorSite/app.js:4:24)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+/home/hectuywu/HectorSite/app.js:4
+app.use(express.static(path.join(__dirname, 'public')));
+                       ^
+
+ReferenceError: path is not defined
+    at Object.<anonymous> (/home/hectuywu/HectorSite/app.js:4:24)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+/home/hectuywu/HectorSite/app.js:4
+app.use(express.static(path.join(__dirname, 'public')));
+                       ^
+
+ReferenceError: path is not defined
+    at Object.<anonymous> (/home/hectuywu/HectorSite/app.js:4:24)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+/home/hectuywu/HectorSite/app.js:4
+app.use(express.static(path.join(__dirname, 'public')));
+                       ^
+
+ReferenceError: path is not defined
+    at Object.<anonymous> (/home/hectuywu/HectorSite/app.js:4:24)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+/home/hectuywu/HectorSite/app.js:4
+app.use(express.static(path.join(__dirname, 'public')));
+                       ^
+
+ReferenceError: path is not defined
+    at Object.<anonymous> (/home/hectuywu/HectorSite/app.js:4:24)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+/home/hectuywu/HectorSite/app.js:4
+app.use(express.static(path.join(__dirname, 'public')));
+                       ^
+
+ReferenceError: path is not defined
+    at Object.<anonymous> (/home/hectuywu/HectorSite/app.js:4:24)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+/home/hectuywu/HectorSite/app.js:4
+app.use(express.static(path.join(__dirname, 'public')));
+                       ^
+
+ReferenceError: path is not defined
+    at Object.<anonymous> (/home/hectuywu/HectorSite/app.js:4:24)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+/home/hectuywu/HectorSite/app.js:4
+app.use(express.static(path.join(__dirname, 'public')));
+                       ^
+
+ReferenceError: path is not defined
+    at Object.<anonymous> (/home/hectuywu/HectorSite/app.js:4:24)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+/home/hectuywu/HectorSite/app.js:4
+app.use(express.static(path.join(__dirname, 'public')));
+                       ^
+
+ReferenceError: path is not defined
+    at Object.<anonymous> (/home/hectuywu/HectorSite/app.js:4:24)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
