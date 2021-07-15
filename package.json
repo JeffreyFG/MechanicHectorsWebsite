@@ -4,8 +4,9 @@
   "description": "Website for Hector",
   "main": "app.js",
   "dependencies": {
+    "express": "^4.17.1",
     "express-generator": "^4.16.1",
-    "express": "^4.17.1"
+    "nodemon": "^2.0.12"
   },
   "devDependencies": {},
   "scripts": {

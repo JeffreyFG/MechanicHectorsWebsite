@@ -1,0 +1,56 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+<link href="../css/MainPageStyling.css" rel="stylesheet" type="text/css">
+</head>
+<ul class= "navBar">
+    <li class = "navBarElement"><a class = "navLink" href="/">Home</a></li>
+    <li class = "navBarElement"><a class = "navLink" href="/reviews">Reviews</a></li>
+    <li class = "navBarElement"><a class = "navLink" href="/contact">Contact</a></li>
+</ul>
+<body >
+	<div class="MainParagraph">
+		<form action="/blog/createpostaction" method="POST" enctype="multipart/form-data">
+            <!--<label for="titleInput">location:</label>
+            
+            <input type ="text" id = "location-info" name="location-input" style="width: 350px;"> 
+            
+            <input type="button" id ="location-button" value ="insert location ">
+            <div style="visibility:hidden;">
+                <input type ="text" id = "location-info-latitude" name="location-input-latitude"> 
+                <input type ="text" id = "location-info-longitude" name="location-inpu-longitude">
+            
+            </div>
+            -->
+            <br>
+            <label for="titleInput">Title:</label>
+            <input type="text" id="titleInput" name="titleValue">
+            <br>
+            <br>
+            <label for="descriptionInput">Description:</label>
+    
+            <textarea id="descriptionInput" name="descriptionValue"></textarea>
+            <br>
+            <br>
+            <br>
+            <br>
+
+            <label class="button-input" for="upload">Upload File</label>
+            <input id="upload" type="file"class="button-for-upload" id="pictureInput" name="pictureValue" accept="image/*">
+            
+            <br>
+            <br>
+            <br>
+            <label for="passwordInput">Password</label>
+            <input type="password" id="passwordInput" name="passwordValue">
+
+            <br>
+            <input class="button-input" type="submit" value="Create Post" >
+            <br>
+        </form>
+    </div>
+	</div>
+</body>
+
+</html>

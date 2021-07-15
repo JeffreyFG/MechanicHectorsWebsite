@@ -1,8 +1,9 @@
-html
-{
-	background: url("../Images/Background.jpg");
-	background-size: cover;
-
+body {
+    background: url('../images/Background.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 .MainParagraph
 {
