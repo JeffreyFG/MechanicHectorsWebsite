@@ -1,12 +1,10 @@
 var express = require('express');
 var router = express.Router();
-var path = require('path');
-let serverRootPath = { root: '/home/hectuywu/HectorSite/public/'};
-let developmentRootPath = { root: './public'}
+let rootPath = { root: './public'}
+/* GET Contact page. */
 router.get('/', function(req, res, next) 
 {
-  //res.sendFile( './index.html',serverRootPath);  
-  res.sendFile( './html/reviews.html',developmentRootPath);
+  res.sendFile( './html/reviews.html',rootPath);
 });
 
 module.exports = router;
