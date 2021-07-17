@@ -1,42 +1,207 @@
-body {
-    background: url('../images/Background.jpg') no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-.MainParagraph
+html
 {
-	margin-top: 4rem;
-	padding: 1rem;
-	background-color: aliceblue;
-	opacity: .98;
+	background: black;
+}
+body {
+    background: url('../images/Background.jpg') ;
+    background-size: cover;
+	background-attachment: fixed;
+    background-position: center;
+  	background-repeat: no-repeat;
+	margin-left: 5rem;
+	margin-right: 5rem;
 	text-align: center;
-	border-radius: 25px;
+
+}
+#LandingPageMainParagraph
+{
+	margin-top: 5.4rem;
+	background-image: linear-gradient(to right, #6b3a35, #643141);
+	opacity: .99;
+	text-align: center;
+	color:white;
+	font-size:1.5rem;
+}
+#ReviewPageMainParagraph
+{
+	margin-top: 5.4rem;
+	background-image: linear-gradient(to right, #6b3a35, #643141);
+	opacity: .99;
+	text-align: center;
+	color:white;
+	font-size:1.5rem;
+	height: 100%;
 }
 .navBar
 {
-
-  	list-style-type: none;
-  	margin: 0;
-  	padding: 0;
-  	overflow: hidden;
+	list-style-type: none;
+  	margin-top: 0;
+  	padding: 1.5rem;
+	top: 0;
+	left: 0;
+	right: 0;
   	background-color: #333;
 	position: fixed;
-  	top: 0;
-	left: 0;
-	width: 100%;
+	z-index: 10;
+	margin-right: 5rem;
+	margin-left: 5rem;
+
 }
-.navBarElement a
+.navBarElement
 {
-	float: left;
-	display: block;
-	color: white;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;	
+	display: inline;
+	font-size: 2rem;
+	padding-left: 2rem;
+	padding-right:2rem;
 }
+	.navBarElement a
+	{
+		color: white;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+		
+	}
 .navLink:hover
 {
-	background-color: #111;
+	color:#d6afaa;
+	border-bottom: #d6afaa;
+	border-width: 5;
+	border-bottom-style: solid;
+}
+#LandingPageParagraph
+{
+	list-style-type: none;
+	display: inline-block;
+	text-align: left; 
+}
+#LandingPagePictureGridContainer
+{
+	grid-template-columns:auto auto auto;
+	display: grid;
+	margin-left: 15rem;
+	margin-right: 15rem;
+	padding: 10px;
+	grid-gap:1rem;
+    justify-content: center;
+	font-size: 2em;
+
+}
+.LandingPagePictures
+{
+	max-height:30rem;
+    width: 30rem;
+}
+#LandingPageSecondParagraph
+{
+	margin-top: 4rem;
+	background-image: linear-gradient(to right, #6b3a35, #643141);
+	opacity: .99;
+	text-align: center;
+	color:white;
+	font-size:1.5rem;
+	text-align: left;
+	padding: 1rem;
+} 
+@media only screen and (max-width: 1700px) 
+{
+	.navBar
+	{
+		margin-left:0;
+		margin-right:0;
+	}
+	.navBarElement
+	{
+		padding: 0;
+		display: inline;
+		font-size: 2.0rem;
+	}
+	.navBarElement a
+	{
+		color: white;
+		text-align: center;
+		text-decoration: none;
+	}
+	body 
+	{
+		margin-left:0;
+		margin-right:0;
+	}
+	#LandingPagePictureGridContainer
+	{
+		grid-template-columns:auto auto;
+	}
+}
+@media only screen and (max-width: 800px) 
+{
+	body
+	{
+		margin-left: 0;
+		margin-right: 0;
+		text-align: center;
+	}
+	#LandingPagePictureGridContainer
+	{
+		margin-left: 0;
+		margin-right: 0;
+		grid-template-columns:auto;
+	}
+}	
+@media only screen and (max-width: 600px) 
+{
+	.navBarElement a
+	{
+		font-size: 1.5rem;
+	}
+	body
+	{
+		margin-left: 0;
+		margin-right: 0;
+		text-align: center;
+	}
+	#LandingPageMainParagraph
+	{
+		font-size: 1rem;
+	}
+	#LandingPagePictureGridContainer
+	{
+		margin-left: 0rem;
+		margin-right: 0rem;
+		padding-left: 0rem;
+		padding-right: 0rem;
+		grid-template-columns:auto;
+	}
+	.LandingPagePictures
+	{
+		max-height:30rem;
+    	max-width: 20rem;
+	}
+}	
+@media only screen and (max-width: 400px) 
+{
+	.navBarElement a
+	{
+		font-size: 1rem;
+	}
+	body
+	{
+		margin-left: 0;
+		margin-right: 0;
+		text-align: center;
+	}
+	#LandingPageMainParagraph
+	{
+		font-size: 1rem;
+	}
+	#LandingPagePictureGridContainer
+	{
+		padding-left: 0rem;
+		padding-right: 0rem;
+		grid-template-columns:auto;
+	}
+	.LandingPagePictures
+	{
+		max-height:30rem;
+    	max-width: 15rem;
+	}
 }
