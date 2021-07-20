@@ -1,14 +1,30 @@
+const { request } = require('express');
 var express = require('express');
 var router = express.Router();
-var path = require('path');
+const url = require('url');    
 /* GET Contact page. */
 let rootPath = { root: './public'}
-router.get('/', function(req, res, next) 
+router.get('/', function(request, response, next) 
 {
-  res.sendFile( './html/contact.html',rootPath);
+  response.sendFile( './html/contact.html',rootPath);
 });
-router.post('/submit-contact-info', function(req, res, next) 
+router.post('/submit-contact-info', function(request, response, next) 
 {
-  res.redirect('/');
+  response.redirect(url.format({
+    pathname:"/contact/contact-info-submited",
+    query:request.body,
+  }));
+  /*
+  var nameValue = request.body.nameValue; 
+  var emailValue = request.body.emailValue;
+  var phoneNumberValue = request.body.phoneNumberValue;
+  var serviceTypeValue = request.body.serviceTypeValue;
+  var dateValue = request.body.dateValue;
+  response.redirect('/contact/contact-info-submited?nameValue='+nameValue+"&emailValue="+emailValue+"&phoneNumberValue="+phoneNumberValue+"&serviceTypeValue="+serviceTypeValue+"&dateValue="+dateValue);
+  */
+});
+router.get('/contact-info-submited',function(request,response,next)
+{
+  response.sendFile( './html/contactSubmited.html',rootPath);
 });
 module.exports = router;

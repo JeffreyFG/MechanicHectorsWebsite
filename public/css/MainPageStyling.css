@@ -147,7 +147,21 @@ body
 }		
 #ContactPageSumbitButton
 {
-	font-size: 20rem;
+	font-size: 3rem;
+	background-color: rgba(255, 255, 255, 1);
+	opacity: 1;
+}
+								/*ContactSumbited*/
+/*************************************************************************/							
+#ContactSubmitedPageMainContent
+{
+	margin-top: 5.4rem;
+	background-image: linear-gradient(to right, #6b3a35, #643141);
+	opacity: .99;
+	color:white;
+	font-size:1.5rem;
+	height: 100%;
+	text-align: center;
 }
 							/*LargeiPads and laptops*/
 /*************************************************************************/
