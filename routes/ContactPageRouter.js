@@ -7,5 +7,8 @@ router.get('/', function(req, res, next)
 {
   res.sendFile( './html/contact.html',rootPath);
 });
-
+router.post('/submit-contact-info', function(req, res, next) 
+{
+  res.redirect('/');
+});
 module.exports = router;

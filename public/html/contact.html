@@ -11,36 +11,55 @@
     <li class = "navBarElement"><a class = "navLink" href="/contact">Contact</a></li>
 </ul>
 <body >
-	<div class="MainParagraph">
-		<form action="/blog/createpostaction" method="POST" enctype="multipart/form-data">
-            <br>
-            <label for="titleInput">Title:</label>
-            <input type="text" id="titleInput" name="titleValue">
-            <br>
-            <br>
-            <label for="descriptionInput">Description:</label>
-    
-            <textarea id="descriptionInput" name="descriptionValue"></textarea>
-            <br>
-            <br>
-            <br>
-            <br>
-
-            <label class="button-input" for="upload">Upload File</label>
-            <input id="upload" type="file"class="button-for-upload" id="pictureInput" name="pictureValue" accept="image/*">
-            
-            <br>
-            <br>
-            <br>
-            <label for="passwordInput">Password</label>
-            <input type="password" id="passwordInput" name="passwordValue">
-
-            <br>
-            <input class="button-input" type="submit" value="Create Post" >
-            <br>
-        </form>
+	<div id="ContactPageMainContent">
+        <p>
+            Please fill out the form and hector will contact you by phone,email, or text message and schedule your service apointment
+        </p>
     </div>
+    <div id="ContactPageFormContent">
+		<form id="ContactPageForm" action="/contact/submit-contact-info" method="POST">
+            <label class="ContactPageFormElement" for="nameInput">Name:</label>
+            <input class="ContactPageFormElement"type="text" id="nameInput" name="nameValue">
+            <br>
+            <label class="ContactPageFormElement" for="emailInput">Email:</label>
+            <input class="ContactPageFormElement" type="text" id="emailInput" name="emailValue">
+            <br>
+            <label class="ContactPageFormElement" for="phoneNumberInput">Phone number:</label>
+            <input class="ContactPageFormElement" type="text" id="phoneNumberInput" name="phoneNumberValue">
+            <br>
+            <label class="ContactPageFormElement">Service Type:</label>
+            <select name="Service Type" id="subject">
+                <option value="" selected="selected">Select service</option>
+                <option value="" >Tire Rotation</option>
+            </select>
+            <br>
+            <label class="ContactPageFormElement" for="dateInput">Desired Date</label>
+            <input class="class="ContactPageFormElement" type="date">
+            <br>
+            <div id="ContactPageSumbitButtonContent">
+                <input type="submit" id="ContactPageSumbitButton" value="Submit"> 
+            </div>
+        </form>
+
 	</div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
 </body>
 
 </html>

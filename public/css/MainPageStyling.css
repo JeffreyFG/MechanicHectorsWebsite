@@ -2,7 +2,10 @@ html
 {
 	background: black;
 }
-body {
+
+/*************************************************************************/
+body 
+{
     background: url('../images/Background.jpg') ;
     background-size: cover;
 	background-attachment: fixed;
@@ -13,25 +16,8 @@ body {
 	text-align: center;
 
 }
-#LandingPageMainParagraph
-{
-	margin-top: 5.4rem;
-	background-image: linear-gradient(to right, #6b3a35, #643141);
-	opacity: .99;
-	text-align: center;
-	color:white;
-	font-size:1.5rem;
-}
-#ReviewPageMainParagraph
-{
-	margin-top: 5.4rem;
-	background-image: linear-gradient(to right, #6b3a35, #643141);
-	opacity: .99;
-	text-align: center;
-	color:white;
-	font-size:1.5rem;
-	height: 100%;
-}
+								/*Navigation*/
+/*************************************************************************/
 .navBar
 {
 	list-style-type: none;
@@ -69,7 +55,18 @@ body {
 	border-width: 5;
 	border-bottom-style: solid;
 }
-#LandingPageParagraph
+								/*LandingPage*/
+/*************************************************************************/
+#LandingPageMainContent
+{
+	margin-top: 5.4rem;
+	background-image: linear-gradient(to right, #6b3a35, #643141);
+	opacity: .99;
+	text-align: center;
+	color:white;
+	font-size:1.5rem;
+}
+#LandingPageList
 {
 	list-style-type: none;
 	display: inline-block;
@@ -87,8 +84,9 @@ body {
 	font-size: 2em;
 
 }
-.LandingPagePictures
+.LandingPagePicture
 {
+	box-shadow: 30px 30px 30px #0e0d0d;
 	max-height:30rem;
     width: 30rem;
 }
@@ -103,6 +101,56 @@ body {
 	text-align: left;
 	padding: 1rem;
 } 
+									/*Review*/
+/*************************************************************************/
+#ReviewPageMainContent
+{
+	margin-top: 5.4rem;
+	background-image: linear-gradient(to right, #6b3a35, #643141);
+	opacity: .99;
+	text-align: center;
+	color:white;
+	font-size:1.5rem;
+	height: 100%;
+}
+/*************************************************************************/
+									/*Contact*/
+#ContactPageMainContent
+{
+	margin-top: 5.4rem;
+	background-image: linear-gradient(to right, #6b3a35, #643141);
+	opacity: .99;
+	color:white;
+	font-size:1.5rem;
+	height: 100%;
+	text-align: center;
+}
+#ContactPageFormContent
+{
+	background-image: linear-gradient(to right, #810d00, #6b0324);
+	opacity: .95;
+	text-align: left;
+	color:white;
+	font-size:1.5rem;
+	height: 100%;
+	text-align: left;
+	margin-left: 15rem;
+	margin-right: 15rem;
+}
+.ContactPageFormElement
+{
+	font-size: 3rem;
+}
+#ContactPageSumbitButtonContent
+{
+	text-align:center; 
+}		
+#ContactPageSumbitButton
+{
+	font-size: 20rem;
+}
+							/*LargeiPads and laptops*/
+/*************************************************************************/
 @media only screen and (max-width: 1700px) 
 {
 	.navBar
@@ -132,6 +180,8 @@ body {
 		grid-template-columns:auto auto;
 	}
 }
+									/*ipads*/
+/*************************************************************************/
 @media only screen and (max-width: 800px) 
 {
 	body
@@ -147,6 +197,8 @@ body {
 		grid-template-columns:auto;
 	}
 }	
+									/*newiPhones*/
+/*************************************************************************/
 @media only screen and (max-width: 600px) 
 {
 	.navBarElement a
@@ -177,6 +229,8 @@ body {
     	max-width: 20rem;
 	}
 }	
+								/*oldiPhones*/
+/*************************************************************************/
 @media only screen and (max-width: 400px) 
 {
 	.navBarElement a
