@@ -3,12 +3,24 @@
         <link href="../css/MainPageStyling.css" rel="stylesheet" type="text/css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
+    <script>
+    function getDetails()
+    {
+        let params = new URLSearchParams(document.location.search.substring(1));
+        let messageText = `Thank you for booking your apoitnment: `+params.get("nameValue"); 
+        messageText+= ` for `+params.get("serviceTypeValue")+`.\n Hector will contact you at `;
+        messageText+= ` number: `+params.get("phoneNumberValue") + " or email: "+params.get("emailValue");
+        document.getElementById('ContactSubmitedPageMainContent').innerText=messageText;
+    } 
+    addEventListener("load",getDetails)
+    </script>
     <ul class= "navBar">
         <li class = "navBarElement"><a class = "navLink" href="/">Home</a></li>
         <li class = "navBarElement"><a class = "navLink" href="/reviews">Reviews</a></li>
         <li class = "navBarElement"><a class = "navLink" href="/contact">Contact</a></li>
     </ul>	
     <body>
-            <p id="ContactSubmitedPageMainContent">
+            <p id="ContactSubmitedPageMainContent"></p>
+
     </body>
 </html>

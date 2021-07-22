@@ -14,14 +14,6 @@ router.post('/submit-contact-info', function(request, response, next)
     pathname:"/contact/contact-info-submited",
     query:request.body,
   }));
-  /*
-  var nameValue = request.body.nameValue; 
-  var emailValue = request.body.emailValue;
-  var phoneNumberValue = request.body.phoneNumberValue;
-  var serviceTypeValue = request.body.serviceTypeValue;
-  var dateValue = request.body.dateValue;
-  response.redirect('/contact/contact-info-submited?nameValue='+nameValue+"&emailValue="+emailValue+"&phoneNumberValue="+phoneNumberValue+"&serviceTypeValue="+serviceTypeValue+"&dateValue="+dateValue);
-  */
 });
 router.get('/contact-info-submited',function(request,response,next)
 {
