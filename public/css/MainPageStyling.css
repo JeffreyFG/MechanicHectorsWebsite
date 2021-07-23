@@ -1,20 +1,20 @@
 html
 {
-	background: black;
+	height: 100%;
 }
 
 /*************************************************************************/
 body 
 {
     background: url('../images/Background.jpg') ;
-    background-size: cover;
 	background-attachment: fixed;
-    background-position: center;
+    background-position: center center;
   	background-repeat: no-repeat;
+	background-size: 100% 100%;
 	margin-left: 5rem;
 	margin-right: 5rem;
 	text-align: center;
-
+	
 }
 								/*Navigation*/
 /*************************************************************************/
@@ -59,7 +59,7 @@ body
 /*************************************************************************/
 #LandingPageMainContent
 {
-	margin-top: 5.4rem;
+	margin-top: 5.3rem;
 	background-image: linear-gradient(to right, #6b3a35, #643141);
 	opacity: .99;
 	text-align: center;
@@ -100,12 +100,14 @@ body
 	font-size:1.5rem;
 	text-align: left;
 	padding: 1rem;
+	height: 100%;
+	text-align: center;
 } 
 									/*Review*/
 /*************************************************************************/
 #ReviewPageMainContent
 {
-	margin-top: 5.4rem;
+	margin-top: 5.3rem;
 	background-image: linear-gradient(to right, #6b3a35, #643141);
 	opacity: .99;
 	text-align: center;
@@ -117,7 +119,7 @@ body
 									/*Contact*/
 #ContactPageMainContent
 {
-	margin-top: 5.4rem;
+	margin-top: 5.3rem;
 	background-image: linear-gradient(to right, #6b3a35, #643141);
 	opacity: .99;
 	color:white;
@@ -164,6 +166,8 @@ body
 	text-align: center;
 	margin-left: 10rem;
 	margin-right: 10rem;
+	height:fit-content;
+	padding-bottom: 4rem;
 }
 							/*LargeiPads and laptops*/
 /*************************************************************************/
@@ -195,6 +199,20 @@ body
 	{
 		grid-template-columns:auto auto;
 	}
+	#ContactPageFormContent
+	{
+		margin-left: 10rem;
+		margin-right: 10rem;
+	}
+	input[type="text"] {
+		width: 95%;
+	}
+	#ContactSubmitedPageMainContent
+	{
+		margin-left: 8rem;
+		margin-right: 8rem;
+	
+	}
 }
 									/*ipads*/
 /*************************************************************************/
@@ -211,6 +229,12 @@ body
 		margin-left: 0;
 		margin-right: 0;
 		grid-template-columns:auto;
+	}
+	#ContactPageFormContent
+	{
+		margin-left: 0rem;
+		margin-right: 0rem;
+		width: 100%;
 	}
 }	
 									/*newiPhones*/
@@ -244,6 +268,13 @@ body
 		max-height:30rem;
     	max-width: 20rem;
 	}
+	#ContactSubmitedPageMainContent
+	{
+		margin-left: 1rem;
+		margin-right: 1rem;
+		font-size: 2rem;
+		height:fit-content;
+	}
 }	
 								/*oldiPhones*/
 /*************************************************************************/
@@ -273,5 +304,9 @@ body
 	{
 		max-height:30rem;
     	max-width: 15rem;
+	}
+	#ContactPageMainContent
+	{
+		font-size: 1rem;
 	}
 }
