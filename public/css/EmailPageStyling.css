@@ -6,7 +6,7 @@ html
 /*************************************************************************/
 body 
 {
-    background: url('../images/Background.jpg') ;
+    background:url(https://hectorthemechanic.site/images/Background.jpg) ;
 	background-attachment: fixed;
     background-position: center center;
   	background-repeat: no-repeat;
@@ -54,105 +54,6 @@ body
 	border-bottom: #d6afaa;
 	border-width: 5;
 	border-bottom-style: solid;
-}
-								/*LandingPage*/
-/*************************************************************************/
-#LandingPageMainContent
-{
-	margin-top: 5.3rem;
-	background-image: linear-gradient(to right, #6b3a35, #643141);
-	opacity: .99;
-	text-align: center;
-	color:white;
-	font-size:1.5rem;
-}
-#LandingPageList
-{
-	list-style-type: none;
-	display: inline-block;
-	text-align: left; 
-}
-#LandingPagePictureGridContainer
-{
-	grid-template-columns:auto auto auto;
-	display: grid;
-	margin-left: 15rem;
-	margin-right: 15rem;
-	padding: 10px;
-	grid-gap:1rem;
-    justify-content: center;
-	font-size: 2em;
-
-}
-.LandingPagePicture
-{
-	box-shadow: 30px 30px 30px #0e0d0d;
-	max-height:30rem;
-    width: 30rem;
-}
-#LandingPageSecondParagraph
-{
-	margin-top: 4rem;
-	background-image: linear-gradient(to right, #6b3a35, #643141);
-	opacity: .99;
-	text-align: center;
-	color:white;
-	font-size:1.5rem;
-	text-align: left;
-	padding: 1rem;
-	height: 100%;
-	text-align: center;
-} 
-									/*Review*/
-/*************************************************************************/
-#ReviewPageMainContent
-{
-	margin-top: 5.3rem;
-	background-image: linear-gradient(to right, #6b3a35, #643141);
-	opacity: .99;
-	text-align: center;
-	color:white;
-	font-size:1.5rem;
-	height: 100%;
-}
-/*************************************************************************/
-									/*Contact*/
-#ContactPageMainContent
-{
-	margin-top: 5.3rem;
-	background-image: linear-gradient(to right, #6b3a35, #643141);
-	opacity: .99;
-	color:white;
-	font-size:1.5rem;
-	height: 100%;
-	text-align: center;
-}
-#ContactPageFormContent
-{
-	background-image: linear-gradient(to right, #810d00, #6b0324);
-	opacity: .95;
-	text-align: left;
-	color:white;
-	font-size:1.5rem;
-	height: 100%;
-	text-align: left;
-	margin-left: 15rem;
-	margin-right: 15rem;
-}
-.ContactPageFormElement
-{
-	font-size: 2rem;
-	size: 200;
-}
-#ContactPageSumbitButtonContent
-{
-	text-align:center; 
-}		
-#ContactPageSumbitButton
-{
-	font-size: 3rem;
-	background-color: rgba(255, 255, 255, 1);
-	opacity: 1;
 }
 								/*ContactSumbited*/
 /*************************************************************************/							
@@ -225,18 +126,6 @@ body
 		margin-right: 0;
 		text-align: center;
 	}
-	#LandingPagePictureGridContainer
-	{
-		margin-left: 0;
-		margin-right: 0;
-		grid-template-columns:auto;
-	}
-	#ContactPageFormContent
-	{
-		margin-left: 0rem;
-		margin-right: 0rem;
-		width: 100%;
-	}
 }	
 									/*newiPhones*/
 /*************************************************************************/
@@ -251,23 +140,6 @@ body
 		margin-left: 0;
 		margin-right: 0;
 		text-align: center;
-	}
-	#LandingPageMainParagraph
-	{
-		font-size: 1rem;
-	}
-	#LandingPagePictureGridContainer
-	{
-		margin-left: 0rem;
-		margin-right: 0rem;
-		padding-left: 0rem;
-		padding-right: 0rem;
-		grid-template-columns:auto;
-	}
-	.LandingPagePictures
-	{
-		max-height:30rem;
-    	max-width: 20rem;
 	}
 	#ContactSubmitedPageMainContent
 	{
@@ -290,24 +162,5 @@ body
 		margin-left: 0;
 		margin-right: 0;
 		text-align: center;
-	}
-	#LandingPageMainParagraph
-	{
-		font-size: 1rem;
-	}
-	#LandingPagePictureGridContainer
-	{
-		padding-left: 0rem;
-		padding-right: 0rem;
-		grid-template-columns:auto;
-	}
-	.LandingPagePictures
-	{
-		max-height:30rem;
-    	max-width: 15rem;
-	}
-	#ContactPageMainContent
-	{
-		font-size: 1rem;
 	}
 }

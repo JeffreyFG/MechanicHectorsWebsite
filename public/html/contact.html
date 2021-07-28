@@ -4,37 +4,45 @@
 <head>
 <link href="../css/MainPageStyling.css" rel="stylesheet" type="text/css">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 </head>
 <ul class= "navBar">
     <li class = "navBarElement"><a class = "navLink" href="/">Home</a></li>
     <li class = "navBarElement"><a class = "navLink" href="/reviews">Reviews</a></li>
     <li class = "navBarElement"><a class = "navLink" href="/contact">Contact</a></li>
 </ul>
-<body >
+<body onload="onLoad1()" >
 	<div id="ContactPageMainContent">
         <p>
             Please fill out the form and hector will contact you by phone,email, or text message and schedule your service apointment
         </p>
     </div>
-    <div id="ContactPageFormContent">
+    <div id="ContactPageFormContent" >
 		<form id="ContactPageForm" action="/contact/submit-contact-info" method="POST">
             <label class="ContactPageFormElement" for="nameInput">Name:</label>
-            <input class="ContactPageFormElement"type="text" id="nameInput" name="nameValue">
+            <input class="ContactPageFormElement"type="text" id="nameInput" name="nameValue" required>
             <br>
             <label class="ContactPageFormElement" for="emailInput">Email:</label>
-            <input class="ContactPageFormElement" type="text" id="emailInput" name="emailValue">
+            <input class="ContactPageFormElement" type="email" id="emailInput" name="emailValue" required>
             <br>
             <label class="ContactPageFormElement" for="phoneNumberInput">Phone number:</label>
-            <input class="ContactPageFormElement" type="text" id="phoneNumberInput" name="phoneNumberValue">
+            <input class="ContactPageFormElement" type="tel id="phoneNumberInput" name="phoneNumberValue" required>
             <br>
+            <p>
+            All prices are for labor only. If you want Hector to source the parts when he contacts you please indicate this.
+            </p>
             <label class="ContactPageFormElement">Service Type:</label>
-            <select name="serviceTypeValue" id="subject">
-                <option value="" selected="selected">Select service</option>
-                <option value="Tire Rotation" >Tire Rotation</option>
+            <select name="serviceTypeValue" id="subject" required>
+                <option value="none" selected disabled hidden>Select an Option</option>
+                <option value ="Brakes and roters">Brakes and roters $150</option> brakes 
+				<option value="Timing belt 4 cylinder">Timing belt 4 cylinder $400</option> 
+				<option value="Timing belt Six cylinder & water pump $700">Timing belt Six cylinder & water pump $700 </option>
             </select>
             <br>
+            Hector does his work on the weekends, please select a sunday or saturday
+            <br>
             <label class="ContactPageFormElement" for="dateInput">Desired Date</label>
-            <input class="ContactPageFormElement" id="dateInput"type="date" name="dateValue">
+            <input class="ContactPageFormElement" id="dateInput"type="date" name="dateValue" required>
             <br>
             <div id="ContactPageSumbitButtonContent">
                 <input type="submit" id="ContactPageSumbitButton" value="Submit"> 
@@ -42,6 +50,27 @@
         </form>
 
 	</div>
+    <script>
+    function onLoad1() 
+    {
+        var date = document.getElementById("dateInput");
+        function noMondays(e)
+        {
+            var day = new Date( e.target.value ).getUTCDay();
+            // Days in JS range from 0-6 where 0 is Sunday and 6 is Saturday
+            console.log(day);
+            if( day >0 && day<6)
+            {
+                e.target.setCustomValidity('Sorry Hector is only available on the weekend please select a date on a saturday or sunday');
+            }
+            else 
+            {
+                e.target.setCustomValidity('');
+            }
+        }
+        date.addEventListener('input',noMondays);
+    }
+    </script>        
 </body>
 
 </html>
