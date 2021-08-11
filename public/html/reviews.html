@@ -10,10 +10,48 @@
     <li class = "navBarElement"><a class = "navLink" href="/reviews">Reviews</a></li>
     <li class = "navBarElement"><a class = "navLink" href="/contact">Contact</a></li>
 </ul>
-<body >
-    <div id="ReviewPageMainParagraph" style="text-align: center;">
-		Greatest mechanic
-	</div>
+<body onload="loadReviews()">
+    <div id="ReviewPageMainParagraph">
+        <button ><a style="text-decoration: none; font-size: 2rem;"href="/reviews/createReviewPage">Create a Review</a></button>
+        <div id="pictureSpot"></div>
+    </div>
 </body>
 
+
+
+
+
+<script>
+const divResult = document.getElementById("pictureSpot");
+    function createCard(data)
+    {
+        var reviewContent=
+         ` <div class="card"> 
+                    <p >${data.title}</p>
+                    <p >${data.description}</p>`
+
+            for(var i = 0; i <Number(data.Stars);i++)
+            {
+                reviewContent+=`<img height="30px" width="auto" src='../images/stars.png'>`
+            }
+            reviewContent+=` </div>`
+        
+        divResult.innerHTML+=reviewContent; 
+    }    
+function loadReviews()
+{
+    fetch('reviews/recentReviews',{mode:'cors'}).then(function(response)
+    {   
+        var data = response.json().then(function(data)
+        {
+            for(const blogPost of data.reverse())
+            {
+                createCard(blogPost);
+            }
+            });
+            
+        }
+    );   
+}     
+</script>
 </html>

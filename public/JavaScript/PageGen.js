@@ -20,4 +20,3 @@ class PageGen
         return beginingOfPageString+dynamicContentString+endOfPageString;   // The function returns the product of p1 and p2
     }
 }
-module.exports = PageGen;

@@ -1,0 +1,53 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+<link href="../css/MainPageStyling.css" rel="stylesheet" type="text/css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<ul class= "navBar">
+    <li class = "navBarElement"><a class = "navLink" href="/">Home</a></li>
+    <li class = "navBarElement"><a class = "navLink" href="/reviews">Reviews</a></li>
+    <li class = "navBarElement"><a class = "navLink" href="/contact">Contact</a></li>
+</ul>
+<body onload="onLoad1()" >
+	<div id="ContactPageMainContent">
+        <p>
+            Please fill out the form and hector will contact you by phone,email, or text message and schedule your service apointment
+        </p>
+    </div>
+    <div id="ContactPageFormContent" >
+		<form id="ContactPageForm" action="/reviews/createReview/" method="POST">
+            <label class="ReviewPageFormElement" for="titleInput">Title:</label>
+            <input class="ReviewPageFormElement"type="textarea" id="titleInput" name="titleValue" required>
+            <br>
+            <label class="ReviewPageFormElement" for="descriptionInput">description:</label>
+            <br>
+            <textarea class="ReviewPageFormElement" id="description" name="descriptionValue" rows="5" cols="33" required>
+
+            </textarea>
+            <br>
+            <div class="txt-center">
+                How many start would you rate your transaction
+                    <div class="rating">
+                        <input id="star5" name="starValue" type="radio" value="5" class="radio-btn hide" name="starValue" />
+                        <label for="star5">☆</label>
+                        <input id="star4" name="starValue" type="radio" value="4" class="radio-btn hide" name="starValue"/>
+                        <label for="star4">☆</label>
+                        <input id="star3" name="starValue" type="radio" value="3" class="radio-btn hide" name="starValue"/>
+                        <label for="star3">☆</label>
+                        <input id="star2" name="starValue" type="radio" value="2" class="radio-btn hide" name="starValue"/>
+                        <label for="star2">☆</label>
+                        <input id="star1" name="starValue" type="radio" value="1" class="radio-btn hide" name="starValue"/>
+                        <label for="star1">☆</label>
+                        <div class="clear"></div>
+                    </div>
+                    <button style="font-size: 2rem;">Submit</button>
+            </div>
+        </form>
+
+	</div>        
+</body>
+
+</html>

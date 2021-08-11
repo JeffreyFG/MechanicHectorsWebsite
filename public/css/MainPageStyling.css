@@ -40,14 +40,13 @@ body
 	padding-left: 2rem;
 	padding-right:2rem;
 }
-	.navBarElement a
-	{
-		color: white;
-		text-align: center;
-		padding: 14px 16px;
-		text-decoration: none;
-		
-	}
+.navBarElement a
+{
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;	
+}
 .navLink:hover
 {
 	color:#d6afaa;
@@ -115,6 +114,84 @@ body
 	font-size:1.5rem;
 	height: 100%;
 }
+#ReviewPageMainParagraph
+{
+	margin-top: 4rem;
+	background-image: linear-gradient(to right, #6b3a35, #643141);
+	opacity: .99;
+	text-align: center;
+	color:white;
+	font-size:1.5rem;
+	padding: 2rem;
+	height: 100%;
+	text-align: center;
+	margin-left: 10rem;
+	margin-right: 10rem;
+}
+.card 
+{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+	background-color: #a30000;
+	transition: 0.20s;
+	width: auto;
+	margin-left: 20rem;
+	margin-right: 20rem;
+	opacity: 1;
+
+}
+#pictureSpot
+{
+	text-align: center;
+	margin:0px auto;
+}
+.txt-center 
+{
+	text-align: center;
+}
+	.hide {
+		display: none;
+	}
+	
+	.clear {
+		float: none;
+		clear: both;
+	}
+	
+	.rating {
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+		unicode-bidi: bidi-override;
+		direction: rtl;
+		text-align: center;
+		position: relative;
+	}
+	
+	.rating > label {
+		float: center;
+		display: inline;
+		padding: 0;
+		margin: 0;
+		position: relative;
+		width: 1.5rem;
+		cursor: pointer;
+		color: #000;
+	}
+	
+	.rating > label:hover,
+	.rating > label:hover ~ label,
+	.rating > input.radio-btn:checked ~ label {
+		color: transparent;
+	}
+	
+	.rating > label:hover:before,
+	.rating > label:hover ~ label:before,
+	.rating > input.radio-btn:checked ~ label:before,
+	.rating > input.radio-btn:checked ~ label:before {
+		content: "\2605";
+		position: absolute;
+		left: 0;
+		color: #FFD700;
+	}
 /*************************************************************************/
 									/*Contact*/
 #ContactPageMainContent
