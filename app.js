@@ -11,4 +11,4 @@ app.use(express.urlencoded({ extended: false }))
 app.use('/', LandingPageRouter);
 app.use('/reviews',ReviewsPageRouter);
 app.use('/contact',ContactPageRouter);
-app.listen(3000);
+app.listen(3001);

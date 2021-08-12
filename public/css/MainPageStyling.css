@@ -29,9 +29,7 @@ body
   	background-color: #333;
 	position: fixed;
 	z-index: 10;
-	margin-right: 5rem;
-	margin-left: 5rem;
-
+	
 }
 .navBarElement
 {
@@ -314,11 +312,35 @@ body
 		margin-right: 0rem;
 		width: 100%;
 	}
+	#ReviewPageMainParagraph
+	{
+		margin-left: 0rem;
+		margin-right:0rem;
+	}
+	#ReviewPageMainContent
+	{
+		margin-left: 0rem;
+		margin-right: 0rem;
+		padding-right: 0rem;
+		padding-left: 0rem;
+		width: 100%;
+	}
+	.card
+	{
+		margin-left: 0rem;
+		margin-right: 0rem;
+		padding-left: 0rem;
+		padding-right: 0rem;
+	}
 }	
 									/*newiPhones*/
 /*************************************************************************/
 @media only screen and (max-width: 600px) 
 {
+	img
+	{
+		max-width: 300px;
+	}
 	.navBarElement a
 	{
 		font-size: 1.5rem;

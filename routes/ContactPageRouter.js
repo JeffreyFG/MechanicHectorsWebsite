@@ -33,10 +33,10 @@ router.post('/submit-contact-info', function(request, response, next)
   let plainTextForCostomer = `Thank you for requesting an appointment with Hector. Hector will contact you and work out final pricing with labor and parts for your ${request.body.serviceTypeValue} as well as what date and time works. remember \n
                               When hector can see you might change.`
   console.log(emailOfCustomer);
-  var HectorsEmailAddress = "Rotorlugo@getMaxListeners.com";
+  var HectorsEmailAddress = "hector@hectorthemechanic.site";
   transporter.sendMail({
     from: '"Hector" <appointmentcreator@hectorthemechanic.site>', // sender address
-    to: "JeffreyFulmerGardner@Outlook.com", // list of receivers
+    to: HectorsEmailAddress, // list of receivers
     subject: "customer request", // Subject line
     text: plainTextForHector, // plain text body
     html:plainTextForHector // html body
